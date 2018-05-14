@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pixel Artist Canvas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gugi">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>PixelBit Art Canvas</h1>
+
+    <div class="borderline">
+      <h2>Choose Grid Size</h2>
+    <div class= "submitPadding">
+      <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+      Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+      </div>
+        <input type="submit">
+    </form>
+
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+  </div>
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="designs.js"></script>
+</body>
+
+</html>
